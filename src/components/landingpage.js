@@ -17,6 +17,28 @@ class Landing extends Component {
 							<h1>Full Stack Web Developer</h1>
 							<hr />
 							<p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | MongoDB</p>
+
+							<div className='social-links'>
+								{/* LinkedIn */}
+								<a href='http://google.com' rel='noopener noreferrer' target='_blank'>
+									<i className='fa fa-linkedin-square' aria-hidden='true' />
+								</a>
+
+								{/* GitHub */}
+								<a href='http://google.com' rel='noopener noreferrer' target='_blank'>
+									<i className='fa fa-github-square' aria-hidden='true' />
+								</a>
+
+								{/* FreeCodeCamp */}
+								<a href='http://google.com' rel='noopener noreferrer' target='_blank'>
+									<i className='fa fa-free-code-camp' aria-hidden='true' />
+								</a>
+
+								{/* YouTube */}
+								<a href='http://google.com' rel='noopener noreferrer' target='_blank'>
+									<i className='fa fa-youtube-square' aria-hidden='true' />
+								</a>
+							</div>
 						</div>
 					</Cell>
 				</Grid>
